@@ -1,0 +1,18 @@
+{
+  "stage": "nfr-requirements",
+  "unit": "u1-repo-foundation",
+  "upstream_ids": ["NFR1", "NFR2", "NFR3", "NFR4", "NFR5", "NFR6", "NFR7", "NFR8", "NFR9", "NFR10", "NFR11"],
+  "coverage": [
+    { "id": "NFR1", "status": "N/A", "target": "U1 has no runtime; analysis latency belongs to U3/U5/U7" },
+    { "id": "NFR2", "status": "N/A", "target": "U1 has no UI; chart responsiveness belongs to U6" },
+    { "id": "NFR3", "status": "N/A", "target": "U1 has no UI; accessibility belongs to U6/U7" },
+    { "id": "NFR4", "status": "N/A", "target": "U1 has no UI; responsive layout belongs to U6/U7" },
+    { "id": "NFR5", "status": "N/A", "target": "U1 has no analysis; reproducibility of results belongs to U3/U9 (lockfile pinning in NFR7.4 supports it)" },
+    { "id": "NFR6", "status": "N/A", "target": "U1 has no runtime error chain; belongs to U3/U4/U5" },
+    { "id": "NFR7", "status": "OK", "target": "NFR7.1, NFR7.2, NFR7.3, NFR7.4, NFR7.5, NFR7.6, NFR7.7" },
+    { "id": "NFR8", "status": "N/A", "target": "U1 incurs no running cost (free CI tier); runtime cost caps belong to U4" },
+    { "id": "NFR9", "status": "N/A", "target": "U1 has no runtime; run IDs and health signals belong to U5" },
+    { "id": "NFR10", "status": "OK", "target": "NFR10.1, NFR10.2, NFR10.3" },
+    { "id": "NFR11", "status": "N/A", "target": "Browser support applies to the frontend units U6/U7" }
+  ]
+}
